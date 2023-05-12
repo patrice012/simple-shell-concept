@@ -20,7 +20,7 @@ int main(void)
 
     /* create a command object */
     char *argv[] =  {"/bin/ls", "-l", "/tmp", NULL};
-    printf("Wait finish\n");
+    printf("Wait start\n");
 
     while (loop < 5)
     {
